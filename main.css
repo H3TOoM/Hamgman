@@ -10,6 +10,7 @@ body {
 }
 .row {
   display: flex;
+  flex-wrap: wrap; 
 }
 hr {
   border: 1px solid #eee;
