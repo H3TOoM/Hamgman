@@ -264,3 +264,18 @@ hr {
   color: #fff;
   border-radius: 30px;
 }
+
+.again{
+  display: block;
+  border: none;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 27px;
+  color: #009688;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+}
