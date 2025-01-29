@@ -106,6 +106,13 @@ document.addEventListener("click", (e) => {
                     let divText = document.createTextNode(`Game Over, The Word Is ${randomValueValue}`)
 
                     div.appendChild(divText);
+                    let againBtn = document.createElement("button");
+                    againBtn.innerHTML = "again";
+                    againBtn.className = "again";
+                    div.appendChild(againBtn);
+                    againBtn.onclick = function () {
+                        location.reload()
+                    }
 
                     document.body.appendChild(div)
 
@@ -136,6 +143,13 @@ document.addEventListener("click", (e) => {
 
                     let divText = document.createTextNode(`Congratulations! You Win!`);
                     div.appendChild(divText);
+                    let againBtn = document.createElement("button");
+                    againBtn.innerHTML = "again";
+                    againBtn.className = "again";
+                    div.appendChild(againBtn);
+                    againBtn.onclick = function () {
+                        location.reload()
+                    }
 
                     document.body.appendChild(div);
                 }
