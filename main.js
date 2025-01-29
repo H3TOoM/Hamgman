@@ -109,6 +109,16 @@ document.addEventListener("click", (e) => {
                     let againBtn = document.createElement("button");
                     againBtn.innerHTML = "again";
                     againBtn.className = "again";
+                    againBtn.style.display = 'block';
+                    againBtn.style.border = 'none';
+                    againBtn.style.width = '150px';
+                    againBtn.style.height = '50px';
+                    againBtn.style.borderRadius = '30px';
+                    againBtn.style.fontSize = '27px';
+                    againBtn.style.color = '#009688';
+                    againBtn.style.textTransform = 'capitalize';
+                    againBtn.style.cursor = 'pointer';
+                    againBtn.style.margin = '20px auto 0 auto';
                     div.appendChild(againBtn);
                     againBtn.onclick = function () {
                         location.reload()
@@ -146,6 +156,16 @@ document.addEventListener("click", (e) => {
                     let againBtn = document.createElement("button");
                     againBtn.innerHTML = "again";
                     againBtn.className = "again";
+                    againBtn.style.display = 'block';
+                    againBtn.style.border = 'none';
+                    againBtn.style.width = '150px';
+                    againBtn.style.height = '50px';
+                    againBtn.style.borderRadius = '30px';
+                    againBtn.style.fontSize = '27px';
+                    againBtn.style.color = '#009688';
+                    againBtn.style.textTransform = 'capitalize';
+                    againBtn.style.cursor = 'pointer';
+                    againBtn.style.margin = '20px auto 0 auto';
                     div.appendChild(againBtn);
                     againBtn.onclick = function () {
                         location.reload()
